@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/xiaomi/ingres/device.mk)
 
 PRODUCT_DEVICE := ingres
-PRODUCT_NAME := omni_ingres
+PRODUCT_NAME := twrp_ingres
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K50G
 PRODUCT_MANUFACTURER := xiaomi
