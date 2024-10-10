@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ingres.mk
+    $(LOCAL_DIR)/twrp_ingres.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ingres-user \
-    omni_ingres-userdebug \
-    omni_ingres-eng
+    twrp_ingres-user \
+    twrp_ingres-userdebug \
+    twrp_ingres-eng
