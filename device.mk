@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES := \
-    bootctrl.xiaomi_sm8450 \
+    android.hardware.boot@1.2-impl-qti \
     libgptutils \
     libz \
     libcutils
